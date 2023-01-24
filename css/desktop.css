@@ -2,30 +2,38 @@
 
 .card {
     width: 1000px;
+    width: 62.5 rem;
 }
 
 .image {
     width: 500px;
+    width: 31.25rem;
     float: right;
 }
 
 .content {
     width: 500px;
+    width: 31.25rem;
     float: left;
     text-align: left;
     padding: 50px 70px 50px 50px;
+    padding: 3.125rem 4.375rem 3.125rem 3.125rem;
 }
 
 .title {
     margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .description {
     margin: 20px 0px;
+    margin: 1.25rem 0rem;
 }
 
 .stats-group {
     flex-flow: row nowrap;
     gap: 50px;
+    gap: 3.125rem;
     margin-top: 40px;
+    margin-top: 2.5rem;
 }

@@ -60,20 +60,24 @@ body {
     font-family: var(--ff-1);
     font-weight: var(--fw-normal);
     font-size: 15px;
+    font-size: 0.938rem;
 }
 
 main {
     display: grid;
     place-content: center;
     min-height: calc(100vh - 32.4px);
+    min-height: calc(100vh - 2.025rem);
 }
 
 .card {
     background-color: var(--color2);
     width: 355px;
+    width: 22.188rem;
     border-radius: 10px;
     overflow: hidden;
     margin: 20px;
+    margin: 1.25rem;
 }
 
 .image {
@@ -92,12 +96,14 @@ main {
 .content {
     text-align: center;
     padding: 40px 30px;
+    padding: 2.5rem 1.875rem;
 }
 
 .title {
     color: var(--color4);
     font-weight: var(--fw-bold);
     margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .title strong {
@@ -107,18 +113,22 @@ main {
 .description {
     color: var(--color5);
     margin: 20px;
+    margin: 1.25rem;
 }
 
 .stats-group {
     display: flex;
     flex-flow: column nowrap;
     gap: 20px;
+    gap: 1.25rem;
     margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 .stat {
     color: var(--color4);
     font-weight: var(--fw-bold);
+    font-size: 24px;
     font-size: 1.5rem;
 }
 
@@ -126,7 +136,8 @@ main {
     color: var(--color6);
     font-family: var(--ff-2);
     font-weight: var(--fw-normal);
-    font-size: 0.8rem;
+    font-size: 12px;
+    font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
