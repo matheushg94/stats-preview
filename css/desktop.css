@@ -13,7 +13,7 @@
     width: 500px;
     float: left;
     text-align: left;
-    padding: 50px;
+    padding: 50px 70px 50px 50px;
 }
 
 .title {
@@ -25,7 +25,7 @@
 }
 
 .stats-group {
-    display: flex;
+    flex-flow: row nowrap;
     gap: 50px;
-    margin: 0px;
+    margin-top: 40px;
 }
