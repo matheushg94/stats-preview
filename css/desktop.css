@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.card {
+    width: 1000px;
+}
+
+.image {
+    width: 500px;
+    float: right;
+}
+
+.content {
+    width: 500px;
+    float: left;
+    text-align: left;
+    padding: 50px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.description {
+    margin: 20px 0px;
+}
+
+.stats-group {
+    display: flex;
+    gap: 50px;
+    margin: 0px;
+}
